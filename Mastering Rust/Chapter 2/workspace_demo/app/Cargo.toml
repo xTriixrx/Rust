@@ -1,0 +1,10 @@
+# workspace_demo/app/Cargo.toml
+
+[package]
+name = "app"
+version = "0.1.0"
+authors = ["VincentNigro"]
+edition = "2021"
+
+[dependencies]
+my_crate = { path = "../my_crate" }

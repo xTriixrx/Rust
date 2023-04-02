@@ -1,0 +1,20 @@
+[package]
+name = "chapter_2"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mod_within"
+path = "src/mod_within.rs"
+
+[[bin]]
+name = "modules_demo"
+path = "src/modules_demo/main.rs"
+
+[[bin]]
+name = "my_program"
+path = "src/my_program/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
