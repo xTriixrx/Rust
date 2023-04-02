@@ -1,0 +1,52 @@
+[package]
+name = "structs"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "unit_struct"
+path = "src/unit_struct.rs"
+
+[[bin]]
+name = "tuple_struct"
+path = "src/tuple_struct.rs"
+
+[[bin]]
+name = "structs"
+path = "src/structs.rs"
+
+[[bin]]
+name = "enums"
+path = "src/enums.rs"
+
+[[bin]]
+name = "struct_methods"
+path = "src/struct_methods.rs"
+
+[[bin]]
+name = "enum_methods"
+path = "src/enum_methods.rs"
+
+[[bin]]
+name = "arrays"
+path = "src/arrays.rs"
+
+[[bin]]
+name = "tuples"
+path = "src/tuples.rs"
+
+[[bin]]
+name = "vec"
+path = "src/vec.rs"
+
+[[bin]]
+name = "hashmaps"
+path = "src/hashmaps.rs"
+
+[[bin]]
+name = "slices"
+path = "src/slices.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

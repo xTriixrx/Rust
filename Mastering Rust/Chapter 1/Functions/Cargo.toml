@@ -1,0 +1,20 @@
+[package]
+name = "functions"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[[bin]]
+name = "function_mut"
+path="src/function_mut.rs"
+
+[[bin]]
+name = "closures"
+path="src/closures.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

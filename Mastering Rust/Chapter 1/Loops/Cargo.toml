@@ -1,0 +1,24 @@
+[package]
+name = "loops"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "loops"
+path = "src/loops.rs"
+
+[[bin]]
+name = "loop_labels"
+path = "src/loop_labels.rs"
+
+[[bin]]
+name = "while"
+path = "src/while.rs"
+
+[[bin]]
+name = "for_loops"
+path = "src/for_loops.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

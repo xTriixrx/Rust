@@ -1,0 +1,20 @@
+[package]
+name = "Conditionals"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "if_else"
+path = "src/if_else.rs"
+
+[[bin]]
+name = "if_assign"
+path = "src/if_assign.rs"
+
+[[bin]]
+name = "match_expressions"
+path = "src/match_expressions.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
